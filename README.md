@@ -2,7 +2,7 @@
 
 以前構築した、ベランダ百葉箱で取得、Database化しているデータを手軽に確認したく、ラズパイZEROと有機ELキャラクターディスプレイ (SO1602A) を使って表示する、プログラムをPythonで検討しました。<BR>
 ベランダ百葉箱の簡単な紹介は以下のリンク参照 <BR>
-<a href="https://kazuho-e-blog.tokyo/?p=1184"></a> <BR>
+" https://kazuho-e-blog.tokyo/?p=1184 "　<BR>
 
 ハードは以下の通り <br>
 ラズベリーパイ ZERO W <br>
@@ -13,7 +13,7 @@ Python 3 <br>
 
 必要ライブラリ
 adafruit_so1602<br>
-参考Web: <a href="https://qiita.com/daisuzu_/items/dad8c99a01f55a7ee704"></a>
+参考Web: " https://qiita.com/daisuzu_/items/dad8c99a01f55a7ee704 "
 
 "sensvalues.php"<br>
 上記は、Web サーバー内にあり、HTTPのGETとPOSTの処理を実装、GETの場合は全レコードをJSON形式で返す

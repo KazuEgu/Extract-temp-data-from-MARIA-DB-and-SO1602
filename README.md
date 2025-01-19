@@ -7,8 +7,9 @@
 ハードは以下の通り <br>
 ラズベリーパイ ZERO W <br>
 有機ELキャラクターディスプレイ S1602AWWB-UC-WB-U <br>
+簡単な回路図はpdfファイル参照
 
-開発環境
+開発環境 <br>
 Python 3 <br>
 
 必要ライブラリ
@@ -17,5 +18,3 @@ adafruit_so1602<br>
 
 "sensvalues.php"<br>
 上記は、Web サーバー内にあり、HTTPのGETとPOSTの処理を実装、GETの場合は全レコードをJSON形式で返す
-
-

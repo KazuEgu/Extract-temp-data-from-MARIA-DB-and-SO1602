@@ -13,8 +13,8 @@ i2c = busio.I2C(board.SCL, board.SDA)
 SO1602 = adafruit_so1602.Adafruit_SO1602_I2C(i2c)
 
 def fetch_data():
-    # Data Import
-    url = "http://192.168.0.6/sensvalues.php"
+    # Data Import / IPは自身の環境に合わせて変更
+    url = "http://192.168.X.Y/sensvalues.php" 
     try:
         response = requests.get(url, timeout=5)  # Setting Timeout
         response.raise_for_status()  # HTTP Error Check
@@ -47,7 +47,6 @@ def fetch_data():
             print(f"Temperature: {latest_temp}deg C")
             # Print SO1602
             SO1602.displayClear()
-            #SO1602.writeLine(str="TOKYO/kita",line=0,align="left")
             SO1602.writeLine(f"Time: {time_str}",line=0,align="left")
             SO1602.writeLine(f"Temp: {latest_temp}deg C",line=1,align="left") 
         else:

@@ -17,4 +17,4 @@ adafruit_so1602<br>
 参考Web: " https://qiita.com/daisuzu_/items/dad8c99a01f55a7ee704 "
 
 "sensvalues.php"<br>
-上記は、Web サーバー内にあり、HTTPのGETとPOSTの処理を実装、GETの場合は全レコードをJSON形式で返す
+上記は、Web サーバー内に保存、HTTPのGETとPOSTの処理を実装、GETの場合は全レコードをJSON形式で返す
